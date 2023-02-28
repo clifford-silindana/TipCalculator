@@ -3,23 +3,26 @@
 }
 
 body {
-    background: rgb(36, 33, 33);
+    background-image: url("./images/alex-haney-CAhjZmVk5H4-unsplash.jpg");
+    background-size: cover;
 }
+
+/*background: rgb(9, 9, 32, 0.7);*/
 
 #calculator-face {
     width: 40vw;
-    height: 80vh;
-    background: rgb(9, 9, 32);
+    height: 110vh;
+    background: rgb(9, 9, 32, 0.7);
     position: absolute;
     left: 30%;
-    top: 10%;
+    top: 5%;
     translate: (-40%, -50%);
     border-radius: 30px;
 }
 
 .input-area {
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .heading {
@@ -33,4 +36,57 @@ body {
     font-family: 'Tilt Neon', cursive;
     font-size: 30px;
 
+}
+
+#input-1 {
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+}
+
+#input-2 {
+    width: 300px;
+    height: 50px;
+}
+
+.form-control {
+    font-size: 30px;
+}
+
+#lower-text-area {
+    display: flex;
+}
+
+#output-area {
+    margin-left: 150px;
+}
+
+.output-area-text {
+    margin-bottom: 30px;
+    border-bottom: 1px solid blue;
+}
+
+.buttons-area {
+    display: flex;
+    align-items: center;
+}
+
+#decrement-button {
+    margin-right: 30px;
+    width: 55px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+#total-price {}
+
+#increment-button {
+    margin-left: 30px;
+    width: 55px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+#people-counter {
+    color: white;
 }
